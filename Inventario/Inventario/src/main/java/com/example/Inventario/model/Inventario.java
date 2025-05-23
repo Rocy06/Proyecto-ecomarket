@@ -8,10 +8,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Inventario {
-
-    public int id;
-    public String nombre;
-    public String descripcion;
-    public int fechaVencimiento;
-    public int precio;
+    private int id;
+    private String nombre;
+    private String descripcion;
+    private int fechaVencimiento;
+    private int precio;
 }
